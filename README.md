@@ -76,7 +76,7 @@ drwxr-x--- 4 koda devteam 4096 Apr 16 18:52 projectX
 
 ## 9.
 ```
-koda@bernaddwiki-ThinkPad-T420s:/home/bernaddwiki/srv$ chmod o-w,g+w projectX
+koda@bernaddwiki-ThinkPad-T420s:/home/bernaddwiki/srv$ chmod -R o-w,g+w projectX
 koda@bernaddwiki-ThinkPad-T420s:/home/bernaddwiki/srv$ ls -l
 total 4
 drwxrwx--- 4 koda devteam 4096 Apr 16 18:52 projectX
