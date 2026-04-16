@@ -23,7 +23,7 @@ drwxrwxr-x 2 koda devteam 4096 Apr 16 18:22 projectX
 
 ## 3.
 ```
-bernaddwiki@bernaddwiki-ThinkPad-T420s:~/srv$ sudo chmod u=rwx,g=rx,o= projectX
+bernaddwiki@bernaddwiki-ThinkPad-T420s:~/srv$ sudo chmod 750 projectX
 bernaddwiki@bernaddwiki-ThinkPad-T420s:~/srv$ ls -l
 total 4
 drwxr-x--- 2 koda devteam 4096 Apr 16 18:22 projectX
@@ -84,7 +84,7 @@ drwxrwx--- 4 koda devteam 4096 Apr 16 18:52 projectX
 
 ## 10.
 ```
-koda@bernaddwiki-ThinkPad-T420s:/home/bernaddwiki/srv/projectX$ chmod a+r,u+w,go-w,a-x README.md
+koda@bernaddwiki-ThinkPad-T420s:/home/bernaddwiki/srv/projectX$ chmod 644 README.md
 koda@bernaddwiki-ThinkPad-T420s:/home/bernaddwiki/srv/projectX$ ls -l
 total 8
 drwxrwxr-x 2 koda devteam 4096 Apr 16 18:54 data
